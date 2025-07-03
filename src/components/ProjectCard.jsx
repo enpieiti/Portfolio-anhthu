@@ -10,7 +10,7 @@ const ProjectCard = ({ imgUrl, title, tags, source, demo }) => {
             href={source}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-xs text-white bg-gradient-primary px-2 py-1 rounded-[71px] btn-scale-aim "
+            className=" flex items-center justify-center text-xs text-white bg-gradient-primary px-2 py-1 rounded-[71px] btn-scale-aim "
           >
             Source
           </a>
@@ -18,9 +18,9 @@ const ProjectCard = ({ imgUrl, title, tags, source, demo }) => {
             href={demo}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-xs text-primary px-2 py-1 rounded-[71px] border-2 border-primary btn-scale-aim "
+            className=" text-xs text-primary px-5 py-1 rounded-[71px] border-2 border-primary btn-scale-aim "
           >
-            Demo
+            Live
           </a>
         </div>
         <div className="flex flex-wrap gap-2 mt-2">

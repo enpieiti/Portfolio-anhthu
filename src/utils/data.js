@@ -14,7 +14,7 @@ import PROJECT_IMG_2 from "../assets/images/eitishop.png";
 import PROJECT_IMG_3 from "../assets/images/task.png";
 import PROJECT_IMG_4 from "../assets/images/note.png";
 import PROJECT_IMG_5 from "../assets/images/grocery.png";
-import PROJECT_IMG_6 from "../assets/images/web-6.png";
+import PROJECT_IMG_6 from "../assets/images/portfolio.png";
 
 export const MENU_LINKS = [
   { id: "01", label: "Home", offset: -100, to: "hero" },
@@ -162,8 +162,16 @@ export const PROJECTS = [
     demo: "https://note-fe-tau.vercel.app/login",
   },
   {
+    id: 6,
+    title: "Frontend Portfolio Website with React & Tailwind CSS",
+    image: PROJECT_IMG_6,
+    tags: ["React", "Tailwind", "vite", "emailjs"],
+    source: "https://github.com/enpieiti/Portfolio-anhthu",
+    demo: "https://enpieiti.github.io/Portfolio-anhthu/",
+  },
+  {
     id: 5,
-    title: "Frontend Ecommerce Website: HTML, SASS , CSS, JavaScript",
+    title: "Frontend Ecommerce Website: HTML, CSS, JavaScript",
     image: PROJECT_IMG_5,
     tags: ["HTML", "SASS", "CSS", "JavaScript"],
     source: "https://github.com/enpieiti/Frontend-Ecommerce-Website-HTML-CSS-and-JavaScript",
